@@ -1,0 +1,325 @@
+h1 {
+	background-color: #e86666;
+	color: white;
+	float: left;
+	width: 12%;
+	margin-left: 105px;
+	margin-right: 450px;
+	font-size: 20px;
+	padding: 15px 15px 15px 10px;
+	text-align: left;
+}
+
+h1, h2, h3, h4, p {
+	font-family: 'Slabo 27px', serif;
+}
+
+h2, h4 {
+	color: #e86666;
+	padding-bottom: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+h2 {
+	float: left;
+	margin-top: 20px;
+	clear: left;
+	margin-right: 500px;
+	font-weight: 900;
+}
+
+.header {
+	color: #D35400;
+}
+
+#portfolio {
+	margin-left: 100px;
+}
+
+.profilepic {
+	float: left;
+	clear: left;
+	padding-top: 10px;
+}
+
+h3 {
+	float: left;
+	padding: 10px;
+	color: gray;
+	font-size: 16px;
+}
+
+p {
+	font-size: 15px;
+	clear: left;
+	padding-top: 10px;
+	line-height: 20px;
+}
+
+.footer {
+	background-color: #e86666;
+	color: #FAF1F1;
+	text-align: center;
+	bottom: 0px;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+}
+
+#connectwithme {
+	border: 1px solid gray;
+	float: left;
+	bottom: 485px;
+	padding: 30px;
+	position: absolute;
+	left: 60%;
+	background-color: #FAF4F4;
+}
+
+#connectwithme:hover {
+	border: 2px solid #000080;
+}
+
+#contact_box {
+	margin-left: 105px;
+	margin-top: 20px;
+	float: left;
+	text-align: left;
+	position: absolute;
+	top: 10%;
+	background-color: #FAF4F4;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	color: #e86666;
+	font-weight: bold;
+}
+
+#contact_box:hover {
+	border: 2px solid #000080;
+}
+
+#submitbutton, #clearbutton {
+	float: left;
+	background-color: #e86666;
+	color: white;
+	width: 19%;
+	padding: 10px;
+	margin: 1px;
+	border: 1px black solid;
+}
+
+#submitbutton {
+	clear:left;
+}
+
+a {
+	text-decoration: none;
+}
+
+.message {
+	height: 200px;
+	width: 250px;
+	margin-top: 5px;
+}
+
+.aboutme {
+	width: 50%;
+	text-align: justify;
+	margin-left: 105px;
+	margin-top: 15px;
+	display: block;
+	background-color: #FAF4F4;
+	padding: 5px;
+	float: left;
+}
+
+.aboutme:hover {
+	border: 2px solid #000080;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.placeholder_pics1, .placeholder_pics2, .placeholder_pics3 {
+	color: #e86666;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.placeholder_pics1 {
+	float: left;
+	clear: left;
+	margin-left: 105px;
+}
+
+.placeholder_pics2 {
+	float: left;
+	margin-left: 20px;
+}
+
+.placeholder_pics3 {
+	float: left;
+	margin-left: 20px;
+}
+
+.row1, .row2 {
+	background-color: #e86666;
+	position: relative;
+	bottom: -160px;
+	text-align: center;
+	padding: 7px;
+	color: white;
+}
+
+input, textarea {
+	margin-bottom: 5px;
+	float:left;
+}
+
+hr {
+	color: blue;
+	clear: left;
+	margin-top: 5px;
+}
+
+.icon:hover {
+	width: 60px;
+	height: 60px
+}
+
+#submitbutton:hover, #clearbutton:hover, .row1:hover, .row2:hover {
+	background-color: #ff4d4d;
+}
+
+h3:hover {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+h3:active, a:active {
+	color:fuchsia;
+}
+
+a:visited {
+	border: 1px dashed blue;
+}
+
+a:visited {
+	color: #8600b3;
+}
+
+html, body {
+	background-color: #ABD5FF;
+}
+
+@media screen and (max-width: 980px) {
+	.aboutme {
+		width: 45%;
+	}
+
+	h2 {
+		margin: 0px;
+	}
+	.contact_box {
+		width: 40%;
+		padding-right: 10px;
+	}
+
+	#submitbutton, #clearbutton {
+		width: 100px;
+	}
+
+	#connectwithme {
+		margin: 10px;
+		padding: 30px;
+		top: 80px;
+	}
+
+	.placeholder_pics3, .placeholder_pics2, .placeholder_pics1 {
+		clear: left;
+		margin-left: 150px;
+	}
+
+	.portfolio {
+		margin-left: 150px;
+	}
+
+	img {
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		margin-right: 240px;
+	}
+
+	.aboutme {
+		width: 75%;
+	}
+
+	#connectwithme {
+		width: 68.5%;
+		clear: both;
+		position: static;
+		display: inline;
+		float: left;
+		margin-left: 105px;
+		margin-right: 80px;
+	}
+
+	.placeholder_pics1 {
+		margin-right: 0px;
+	}
+	
+	.pp1 {
+		float: right;
+		display: inline-table;
+	}
+	.placeholder_pics2 {
+		display: inline;
+		float: right;
+		margin-left: 0px;
+		margin-right: 80px;
+		margin-bottom: 10px;
+	}
+
+	.footer {
+		clear: both;
+	}
+
+	#contact_box, #contact_box > input {
+		width: 70%;
+	}
+
+	input, textarea {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	h1 {
+		margin-right: 180px;
+	}
+
+	.profilepic {
+		width: 460px;
+		height: 300px;
+	}
+
+	.pp1, .pp{
+		width: 400px;
+		height: 300px;
+		margin: 10px 100px 10px 100px;
+		clear: left;
+	}
+
+}
